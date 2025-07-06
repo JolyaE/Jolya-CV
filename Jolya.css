@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(58, 0, 41);
+    color: white;
+    padding: 20px;
+}
+h1,h2 {
+    text-align: left;
+    margin-left: 50px;
+}
+.tech, .exp, .vexp, .langs{
+    padding-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(244, 134, 253);
+}
+a:hover{
+    color: rgb(238, 54, 255);
+}
+.top{
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+    justify-content: space-around;
+    
+}
+
+.lulu{
+    margin-top: 40px;
+    justify-content: flex-end;
+    color: pink;
+}
+img{
+    border-radius: 100%;
+    align-self: flex-start;
+}
+footer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(58,0,41);
+    
+}
+.heaven ote{
+  flex-shrink: 1;  
+}
+.gold{
+    flex-shrink: 1;
+}
+.hearts{
+    padding: 5px;
+    flex-shrink: 10;
+    align-self: center;
+}
